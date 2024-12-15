@@ -55,6 +55,17 @@ body {
 }
 
 /* Hero Section */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centra verticalmente en toda la pantalla */
+}
+img {
+    max-width: 100%; /* Escala la imagen según el ancho disponible */
+    height: auto; /* Mantiene la proporción */
+}
 .hero {
     display: flex;
     justify-content: center;
